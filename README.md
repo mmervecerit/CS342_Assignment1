@@ -1,5 +1,5 @@
 # CS342_Assignment1
-This project manages patient records and medications, offering functionality for tracking patient details, prescribing medications, and determining blood type compatibility.
+This project is a simple data model for patient records and medications, offering functionality for tracking patient details, prescribing medications, and determining blood type compatibility.
 
 ## Table of Contents
 1. [Overview](#overview)
