@@ -10,7 +10,7 @@ This class represents a medication with attributes like name, dosage, route, fre
 This class stores patient information such as name, date of birth, height, weight, blood type, and a list of medications. Includes methods to calculate age, prescribe medications, and retrieve active medications.
 
 ### 3. **BloodType**
-An enum representing blood types (`A+`, `O-`, etc.), with a Patient method to determine compatible donors.
+This enum represents blood types (`A+`, `O-`, etc.), with a Patient method to determine compatible donors.
 
 ---
 
@@ -23,7 +23,7 @@ An enum representing blood types (`A+`, `O-`, etc.), with a Patient method to de
 
 ### **Patient**
 - `init`: initializes a patient with a automatically generated patient ID, it doesn't require blood type to be known at the time of creation.
-- `calculateAge`: Computes the patient’s age.
+- `calculateAge`: Computes the patient’s age and returns it in years.
 - `returnDonorBloodTypes`: Lists compatible blood types for transfusion.
 - `prescribeMedication`: Adds a medication while preventing duplicates.
 - `returnactiveMedications`: Retrieves active medications, sorted by date.
@@ -42,7 +42,7 @@ An enum representing blood types (`A+`, `O-`, etc.), with a Patient method to de
   - Test medication creation, duplication prevention, and retrieval of active medications.
 
 ### Key Test Functions
-There are 7 test functions that test the initialization of classes and methods, here are the key ones:
+7 test functions test the initialization of classes and methods, here are the key ones:
 - `create_patient`: Tests patient creation and details.
 - `createMedication`: Tests medication initialization.
 - `prescribeMedication`: Verifies medication prescription handling.
