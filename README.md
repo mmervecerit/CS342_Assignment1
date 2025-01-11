@@ -1,25 +1,10 @@
 # CS342_Assignment1
 This project is a simple data model for patient records and medications, offering functionality for tracking patient details, prescribing medications, and determining blood type compatibility.
 
-## Table of Contents
-1. [Overview](#overview)
-2. [Classes and Enums](#classes-and-enums)
-3. [Key Functions](#key-functions)
-4. [Testing](#testing)
-
-## Overview
-
-A system for managing:
-- **Patients**: Stores patient details, calculates age, and tracks medications.
-- **Medications**: Tracks dosage, duration, and completion status.
-- **Blood Types**: Determines donor compatibility.
-
----
-
 ## Classes and Enums
 
 ### 1. **Medication**
-This class epresents a medication with attributes like name, dosage, route, frequency, and duration. Automatically tracks if the course is completed.
+This class represents a medication with attributes like name, dosage, route, frequency, and duration. It automatically tracks whether the course is completed.
 
 ### 2. **Patient**
 This class stores patient information such as name, date of birth, height, weight, blood type, and a list of medications. Includes methods to calculate age, prescribe medications, and retrieve active medications.
