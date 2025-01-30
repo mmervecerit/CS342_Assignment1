@@ -49,3 +49,5 @@ This enum represents blood types (`A+`, `O-`, etc.), with a Patient method to de
 - `getlistofMedications`: Ensures proper retrieval of active medications.
 - `setbloodtype_returndonorlist`: Returns list of possible blood transfusion donors for the patient.
 
+
+See more on this project with UI updates here: https://github.com/mmervecerit/CS342_Assignment2.git
